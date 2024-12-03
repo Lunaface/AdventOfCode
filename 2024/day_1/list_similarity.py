@@ -15,6 +15,7 @@ foundValues = {}
 for number in list1:
     if number in foundValues:
         result += foundValues[number]
+        continue
 
     occurrences = list2.count(number)
     score = number * occurrences
