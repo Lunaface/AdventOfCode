@@ -23,7 +23,6 @@ def walk(_path, position, direction):
     _path.append(next)
     return (next, direction)
 
-# construct the guard's path with movement direction
 direction = (0, -1)
 path = [position]
 while is_in_grid(position):
